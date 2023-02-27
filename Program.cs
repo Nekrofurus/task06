@@ -2,7 +2,7 @@
 // 4 -> да
 // -3 -> нет
 // 7 -> нет
-Console.WriteLine("Введите целое число");
+Console.WriteLine("Введите целое число для проверки на четность");
 int number = Convert.ToInt32(Console.ReadLine());
 if (number % 2 == 0)
 Console.WriteLine("Да, четное");
